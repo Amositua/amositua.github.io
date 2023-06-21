@@ -1,0 +1,183 @@
+/* Media Query */
+@media (max-width: 700px) {
+
+    .container {
+      margin: 0 2px;
+      padding: 0 20px;
+    }
+  
+   /* Header */
+   .header {
+    height: 400px;
+}
+
+.head-info {
+    width: auto;
+    height: 80px;
+}
+
+.head-info p {
+    font-size: 10px;
+}
+
+.head-info h1 {
+    font-size: 35px;
+}
+
+.head-info h2 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.head-info .seperator {
+  width: 80px;
+  top: 200%;
+  left: 25%;
+}
+
+  
+    /* contact us */
+  .contact-us {
+    margin-top: 40px;
+  }
+
+  .contact-us .flex {
+    flex-direction: column;
+  }
+
+    .contact-us .contact-info li {
+      margin: 15px 0;
+    }
+  
+    .contact-us img {
+      width: 96.7vw;
+      margin-top: -70px;
+    }
+  
+    .contact-us .contact-info {
+      margin-top: 10px;
+      width: auto;
+      height: 310px;
+      margin-left: 0px;
+    }
+  
+    .contact-us .contact-info h1 {
+      font-size: 35px;
+      margin: 0 0;
+    }
+  
+    .contact-info .line {
+      margin-top: 5px;
+      margin-bottom: 30px;
+    }
+
+    .contact-us .contact-info2 {
+      margin-top: 10px;
+      width: auto;
+      margin-left: 0px;
+    }
+
+    .contact-us .contact-info2 h5 {
+      font-size: 10px;
+      margin: 15px 0;
+    }
+
+    .contact-us .contact-info2 h1 {
+      font-size: 30px;
+      line-height: 10px;
+    }
+    
+    .contact-us .line {
+      margin: 15px 0;
+    }
+
+    /* Contact Information */
+    .contact-information {
+      margin-top: 10px;
+      width: auto;
+    }
+
+    .contact-information .flex {
+      flex-direction: column;
+      margin-bottom: 15px;
+    }
+
+    .contact-information .heading .flex {
+       flex-direction: row;
+       width: 100%;
+       margin: 0;
+    }
+
+    .contact-information .heading {
+      margin: 0;
+    }
+
+    .contact-information .heading .head {
+      width: 100%;
+      margin-top: 50px;
+    }
+
+    .contact-information .icons {
+      width: 400px;
+      justify-content: flex-start;
+      margin-top: 20px;
+    }
+
+    .contact-information .icon-container {
+      margin-right: 15px;
+      margin-left: 0px;
+      padding: 5px;
+    }
+
+    .contact-information .heading p {
+      margin: 10px 0;
+    }
+
+    /* Information */
+    .information {
+      margin-top: 20px;
+    }
+
+    .information .container {
+      flex-direction: column;
+      margin: 0px;
+    }
+
+
+    .information .container .flex {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .information .icon-container {
+      margin-right: 0px;
+      margin-bottom: 10px;
+    }
+
+    .information .box {
+      width: 100%;
+      margin: 10px 0;
+    }
+
+    .information .box2 {
+      width: 100%;
+      margin: 10px 0;
+    }
+
+    .location iframe {
+      margin-top: 50px;
+      width: 100%;
+    }
+
+    .head-info h1 {
+      font-size: 30px !important;
+    }
+  
+    .head-info p {
+      font-size: 10px !important;
+    }
+
+    .head-info h4 {
+      font-size: 14px !important;
+    } 
+  }

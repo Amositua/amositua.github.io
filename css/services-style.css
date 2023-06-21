@@ -1,0 +1,135 @@
+.header {
+    background-image: url("/images/back7.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.header .overlay {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(34, 36, 36);
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.head-info {
+    color: #fff;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+
+.head-info p {
+    font-size: 12px;
+    color: #b6b6b6;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.head-info h1 {
+    font-size: 40px !important;
+}
+
+.head-info .seperator {
+  width: 100px;
+  height: 1px;
+  background-color: #c48e2a;
+  position: absolute;
+  top: 220%;
+  left: 38%;
+  transform: rotate(90deg);
+}
+
+/* Setvice */
+.services {
+    margin-top: 130px;
+}
+
+.services .container {
+  max-width: 1500px;
+}
+
+.services2 .container {
+  max-width: 1500px;
+}
+
+.services2 { 
+    padding: 0px 0;  
+    margin-top: 30px; 
+}
+
+.services .services-container {
+    margin-bottom: 10px;
+}
+
+.services-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-bottom: 120px;
+}
+  
+  .services2 h1 {
+    color: #c9c9c9;
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: "Roboto",sans-serif;
+    letter-spacing: 3px;
+    margin-bottom: 22px;
+    text-align: center;
+  }
+  
+  .services2 h3 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 58px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  
+  .services2 .card {
+    width: 31.9%;
+    margin: 0 auto;
+  }
+  
+  .services2 h2 {
+    text-align: center;
+    margin: 20px 0;
+    /* color: #dc5d4c; */
+  }
+  
+  .services2 p {
+    line-height: 25px;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+  }
+
+  /* About us */
+  .about-us {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  /* testimonial */
+
+  .testimonial {
+    margin-top: 100px;
+  }
+
+  .testimonial-head {
+    margin-top: 0px;
+  }

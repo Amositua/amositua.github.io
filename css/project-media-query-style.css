@@ -1,0 +1,113 @@
+/* Media Query */
+@media (max-width: 700px) {
+    .container {
+        margin: 0 2px;
+        padding: 0 20px;
+    }
+
+    /* Header */
+    .header {
+        height: 400px;
+    }
+
+    .head-info {
+        width: auto;
+        height: 80px;
+
+    }
+
+    .head-info h4 {
+        width: 350px;
+        margin-top: 10px;
+    }
+
+    .head-info h1 {
+        font-size: 35px;
+    }
+
+    .head-info h2 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .head-info .seperator {
+        width: 80px;
+        top: 200%;
+        left: 40%;
+    }
+
+    /* Projects */
+    .projects .flex {
+        margin-top: 100px;
+    }
+
+    .projects .card-text h1 {
+        font-size: 20px;
+    }
+
+    .projects .flex .card {
+        width: 100%;
+    }
+
+    .projects .flex .first {
+        margin-top: 0px;
+    }
+
+    .projects .card-text p {
+        font-size: 13px;
+        line-height: 1.5rem;
+        width: auto;
+    }
+
+    .projects .flex .design img {
+        height: 527px;
+        /* width: auto; */
+      }
+
+    /* Testimonial */
+    .testimonial {
+        margin-top: 50px;
+    }
+
+    .testimonial .sub-heading {
+        margin-bottom: 0px;
+    }
+
+    .testimonial .container {
+        padding-left: 10px;
+    }
+
+    .testimonial h2 {
+        font-size: 30px
+    }
+
+    .myTestimonial {
+        width: auto;
+    }
+
+    .myTestimonial p {
+        font-size: 15px;
+    }
+
+    .right-button,
+    .left-button {
+        display: none;
+    }
+
+    /* contact us */
+    .contact-us img {
+    margin-top: -40px;
+  }
+
+    .head-info h1 {
+        font-size: 30px !important;
+    }
+
+    .head-info p {
+        font-size: 10px !important;
+    }
+
+    .head-info h4 {
+        font-size: 14px !important;
+    } 
+}

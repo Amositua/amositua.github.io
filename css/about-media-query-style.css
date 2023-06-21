@@ -1,0 +1,250 @@
+/* MEDIA QUERY */
+@media (max-width: 700px) {
+    /* Header */
+    .header {
+        height: 400px;
+    }
+    .head-info {
+        width: 290px;
+        height: 80px;
+    }
+
+    .head-info p {
+        font-size: 10px;
+    }
+
+    .head-info h1 {
+        font-size: 35px;
+    }
+
+    .head-info .seperator {
+      width: 80px;
+      top: 200%;
+      left: 36%;
+  }
+
+    /* About us */
+    .about-us .flex {
+      width: auto;
+    }
+  
+    .about-us {
+      padding: 10px 0;
+    }
+  
+    .about-us h3 {
+      font-size: 35px;
+      line-height: 50px;
+    }
+  
+    .about-us .seperator {
+      margin-top: 2px;
+      margin-bottom: 20px;
+    }
+    .about-us .container {
+      flex-direction: column;
+    }
+  
+    .about-us .about-info {
+      width: 100%;
+    }
+
+    .about-ceo .ceo-info .icons {
+      width: 30%;
+    }
+  
+    .about-us .about-img img {
+      width: 100%;
+      object-fit: cover;
+      margin-top: 20px;
+      height: auto;
+    }
+
+    .about-us .about-info h1 {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .about-us .about-info h3 {
+        font-size: 20px;
+    }
+
+    .about-info p {
+        font-size: 15px;
+        line-height: 1.5rem;
+    }
+  
+    .about_list li {
+        font-size: 15px;
+    }
+
+    .flex .about-img {
+      order: 1;
+    }
+  
+    .flex .about {
+      /* width: auto; */
+      width: 100%;
+      order: 2;
+    }
+  
+    .about-us .circle1 {
+        left: 50%;
+    }
+
+
+    /* Our Mission */
+    .mission .mission-info {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .mission .mission-info h4 {
+        margin-bottom: 5px;
+    }
+
+    .mission .mission-info h1 {
+        font-size: 35px;
+    }
+
+    .mission .mission-info p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .mission .mission-img img {
+      width: 100%;
+      height: auto;
+      margin-top: 30px;
+    }
+
+    /* Video */
+    .video-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    video {
+      width: 100%;
+      height: 100%;
+    }
+   
+
+    #play-pause-button {
+      width: 50px;
+      height: 40px;
+    }
+
+    #play-pause-button i {
+      font-size: 15px !important;
+      line-height: 35px;
+    }
+
+
+    /* Our Experts */
+    .expert {
+      margin-top: 550px;
+    }
+  
+    .expert h3 {
+      font-size: 30px;
+    }
+   
+    .expert h1 {
+      margin-bottom: 3px;
+    }
+
+    .expert .expert-container {
+      margin-top: 10px;
+      margin-bottom: 80px;
+      flex-direction: column;
+    }
+  
+    .expert .card {
+      width: 100%;
+      margin-top: 30px;
+    }
+
+    .circle {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
+    }
+  
+    .expert p {
+      line-height: 1.5rem;
+    }
+  
+    .expert .icons {
+      width: 30%;
+    }
+  
+    /* Testimonial */
+    .testimonial {
+      margin-top: -35px;
+    }
+  
+    .testimonial .sub-heading {
+      margin-bottom: 0px;
+    }
+  
+    .testimonial .container {
+      padding-left: 10px;
+    }
+    .testimonial h2 {
+      font-size: 30px
+    }
+    .myTestimonial {
+      width: auto;
+    }
+  
+    .myTestimonial p {
+      font-size: 15px;
+    }
+  
+    .right-button, .left-button {
+      display: none;
+    }
+    
+    /* contact us */
+    .contact-us .flex {
+      flex-direction: column;
+    }
+  
+    .contact-us img {
+      width: 100%;
+      height: 500px;
+      margin-top: -30px;
+    }
+  
+    .contact-us .contact-info {
+      width: auto;
+      margin-left: 0px;
+    }
+  
+    .contact-us .contact-info h1 {
+      font-size: 35px;
+      margin: 0 0;
+    }
+  
+    .contact-info .line {
+      margin-top: 5px;
+      margin-bottom: 30px;
+    }
+
+    .head-info h1 {
+      font-size: 30px !important;
+    }
+  
+    .head-info p {
+      font-size: 10px !important;
+    }
+}
+
+
+
+
+
+
+
+  
