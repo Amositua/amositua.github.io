@@ -1,0 +1,19 @@
+.project .project-img2 img{
+    /* width: 300px; */
+    height: 320px;
+}
+
+
+.project .container .flex h6 {
+    margin: 0 0 20px 0;
+}
+
+.project .container .project-info2  {
+    height: 300px;
+}
+
+.container .dots {
+    position: absolute;
+    bottom: 30px;
+    left: 150px;
+}

@@ -64,6 +64,10 @@
         /* width: auto; */
       }
 
+      .project-info2 p {
+        line-height: 300px;
+      }
+
     /* Testimonial */
     .testimonial {
         margin-top: 50px;
