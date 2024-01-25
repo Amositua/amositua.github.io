@@ -109,11 +109,11 @@ a:hover {
 }
 
 .navbar img {
-  width: 100px;
-  height: 60px;
+  /* width: 100px; */
+  height: 40px;
   object-fit: cover;
   color: #6052cc;
-  font-size: 2rem;
+  /* font-size: 2rem; */
 }
 
 /* Menu bars */
