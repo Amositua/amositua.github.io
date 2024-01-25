@@ -42,7 +42,7 @@
 .head-info .seperator {
   width: 100px;
   height: 1px;
-  background-color: #c48e2a;
+  background-color: #6052cc;
   position: absolute;
   top: 220%;
   left: 35%;
@@ -74,6 +74,7 @@
   
   .mission .mission-info h1 {
     font-size: 50px;
+    color: #6052cc;
   }
 
   .mission .mission-info {
@@ -99,7 +100,7 @@
     height: 2px;
     margin-top: 10px;
     margin-bottom: 25px;
-    background-color: #000;
+    background-color: #d1cdcd;
   }
 
   /* Video */
@@ -236,6 +237,7 @@
   line-height: 58px;
   /* margin-bottom: 22px; */
   text-align: center;
+  color: #6052cc;
 }
 
 .expert .expert-container {
@@ -251,6 +253,7 @@
   line-height: 58px;
   margin-bottom: 0;
   text-align: center;
+  color: #6052cc;
 }
 
 
@@ -295,6 +298,10 @@
   width: 40%;
   font-size: 25px;
   margin: 20px auto;
+}
+
+.expert .icons a {
+  color: #6052cc;
 }
 
 /* Testimonial */

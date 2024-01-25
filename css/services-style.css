@@ -41,7 +41,7 @@
 .head-info .seperator {
   width: 100px;
   height: 1px;
-  background-color: #c48e2a;
+  background-color: #6052cc;
   position: absolute;
   top: 220%;
   left: 38%;
@@ -95,6 +95,7 @@
     line-height: 58px;
     margin-bottom: 0;
     text-align: center;
+    color: #6052cc;
   }
   
   

@@ -45,7 +45,7 @@
 .head-info .seperator {
   width: 100px;
   height: 1px;
-  background-color: #c48e2a;
+  background-color: #6052cc;
   position: absolute;
   top: 160%;
   left: 35%;
@@ -94,7 +94,7 @@
 
   .contact-info li::before {
     content: "";
-    background: #f9ad4a;
+    background: #6052cc;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -117,7 +117,7 @@
   .contact-us .line {
     width: 90px;
     height: 2px;
-    background-color: #131313;
+    background-color: #c9c9c9;
     margin: 20px 0 50px 0;
   }
   
@@ -160,7 +160,7 @@
     padding: 18px 44px;
     font-size: 14px;
     font-weight: 400;
-    border: 1px solid #131313;
+    border: 1px solid #c9c9c9;
     letter-spacing: 3px;
     text-align: center;
     color: #131313;
@@ -168,7 +168,7 @@
   
   .contact-us .send-mail:hover {
     color: #fff;
-    background-color: #131313;
+    background-color: #6052cc;
   }
 
 
@@ -190,6 +190,7 @@
   .contact-information .heading h1 {
     font-size: 34px;
     margin: 10px 0;
+    color: #6052cc;
   }
 
   .contact-information .heading p {
@@ -223,11 +224,15 @@
 
   .contact-information .icon-container {
     display: inline-block;
-    background-color: #f9ad4a;
+    background-color: #6052cc;
     border-radius: 50%;
     padding: 8px;
     margin-left: 15px;
     width: auto;
+  }
+
+  .contact-information .icon-container:hover {
+    background-color: #9289d4;
   }
 
   /* Information */
@@ -271,7 +276,7 @@
 }
 
 .information .icon-container i {
-  color: #f9ad4a;
+  color: #6052cc;
   font-size: 25px;
 }
 
