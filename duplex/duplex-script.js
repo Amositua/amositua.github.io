@@ -71,7 +71,7 @@ const data = [
         size: '50ft by 100ft',
         date: '2021',
         location: 'BENIN CITY, EDO STATE',
-        image: '/images/project4.jpg',
+        image: '/images/duplex/IMG_9375.JPG',
         url: '/bungalow/bungalows/bungalow2.html'
     },
     {
