@@ -49,9 +49,9 @@
       width: 100%;
     }
 
-    .about-ceo .ceo-info .icons {
+    /* .about-ceo .ceo-info .icons {
       width: 30%;
-    }
+    } */
   
     .about-us .about-img img {
       width: 100%;
@@ -214,7 +214,7 @@
     .contact-us img {
       width: 100%;
       height: 500px;
-      margin-top: -30px;
+      margin-top: -250px;
     }
   
     .contact-us .contact-info {

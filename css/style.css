@@ -95,9 +95,19 @@ a:hover {
   background-color: transparent;
 }
 
-/* .navbar span {
-  font-size: 30px;
-} */
+.navbar .pro {
+  color: #3c3c3b;
+  display: block;
+    padding: 5px 16px 16px 16px; /* Top 0, right 16px, bottom 16px, left 16px */
+  font-size: 0.9rem;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.navbar span {
+  font-size: 33px;
+}
 
 
 .navbar h1 a {
