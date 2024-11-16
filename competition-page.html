@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Competition Showcase</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #ff8c00, #ff5e62);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 20px auto;
+    }
+    /* About Section */
+    .about {
+      text-align: center;
+      padding: 20px;
+    }
+    .about h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    .about p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      color: #555;
+    }
+    /* Schedule Section */
+    .schedule {
+      background-color: #fff;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .schedule h2 {
+      font-size: 1.8em;
+      margin-bottom: 15px;
+    }
+    .schedule ul {
+      list-style: none;
+    }
+    .schedule li {
+      font-size: 1.1em;
+      margin: 10px 0;
+      color: #666;
+    }
+    /* Call to Action */
+    .cta {
+      text-align: center;
+      margin: 40px 0;
+    }
+    .cta a {
+      padding: 15px 30px;
+      background: linear-gradient(45deg, #6a11cb, #2575fc);
+      color: #fff;
+      font-size: 1.2em;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 30px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .cta a:hover {
+      transform: scale(1.1);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+    /* Contact Section */
+    .contact {
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+    .contact h2 {
+      font-size: 1.8em;
+      margin-bottom: 15px;
+    }
+    .contact form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .contact input, .contact textarea {
+      padding: 10px;
+      font-size: 1em;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+    }
+    .contact button {
+      padding: 12px;
+      font-size: 1.1em;
+      background-color: #ff5e62;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .contact button:hover {
+      background-color: #ff8c00;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Ultimate Talent Show 2024</h1>
+    <p>Unleash Your Talents, Compete for the Grand Prize, and Shine Like Never Before!</p>
+  </header>
+
+  <div class="container">
+    <!-- About Section -->
+    <section class="about">
+      <h2>About the Competition</h2>
+      <p>Join us for an unforgettable experience as we gather talented individuals from across the globe! Whether you’re a singer, dancer, artist, or performer, this competition is your chance to showcase your talent and win exciting prizes. With judges from the industry and an enthusiastic audience, it's your time to shine.</p>
+    </section>
+
+    <!-- Schedule Section -->
+    <section class="schedule">
+      <h2>Event Schedule</h2>
+      <ul>
+        <li><strong>Registration Opens:</strong> January 10, 2024</li>
+        <li><strong>Preliminary Rounds:</strong> February 20 - March 15, 2024</li>
+        <li><strong>Finals:</strong> March 30, 2024</li>
+        <li><strong>Awards Ceremony:</strong> March 31, 2024</li>
+      </ul>
+    </section>
+
+    <!-- Call to Action -->
+    <div class="cta">
+      <a href="./register.html">Register Now</a>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <p>If you have any questions or need further assistance, feel free to reach out to us!</p>
+      <form action="submit-form.php" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </div>
+</body>
+</html>

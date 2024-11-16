@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competition Registration Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        /* General Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            /* Professional font */
+            background-color: #f5f7fa;
+            /* Light gray background */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Form Container */
+        .container {
+            width: 90%;
+            max-width: 700px;
+            margin: 50px auto;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            /* transition: transform 0.3s ease-in-out; */
+        }
+
+        /* .container:hover {
+  transform: translateY(-10px);
+} */
+
+        /* Heading Styles */
+        h2 {
+            text-align: center;
+            color: #007bff;
+            font-size: 2.2em;
+            margin-bottom: 20px;
+            font-weight: 600;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        /* Form Layout */
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* Form Groups */
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        /* Label Styling */
+        label {
+            font-size: 1.1em;
+            font-weight: 500;
+            margin-bottom: 8px;
+            color: #555;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        /* Input, Select, and Textarea Fields */
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 15px;
+            font-size: 1em;
+            margin-top: 8px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+            background-color: #fafafa;
+            /* Subtle light gray background */
+        }
+
+        input:focus,
+        select:focus,
+        textarea:focus {
+            border-color: #007bff;
+            /* Blue border on focus */
+            box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+            /* Blue glow effect */
+            outline: none;
+        }
+
+        /* Textarea Styling */
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        /* Button Styling */
+        button {
+            padding: 15px;
+            background-color: #007bff;
+            /* Primary blue color */
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            /* Darker blue on hover */
+            transform: translateY(-2px);
+            /* Slight hover lift */
+        }
+
+        button:active {
+            background-color: #004085;
+            /* Darker blue on active click */
+        }
+
+        /* Centered Button */
+        .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Link Styling */
+        a {
+            text-align: center;
+            display: block;
+            margin-top: 25px;
+            color: #007bff;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: 600;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+
+        /* Success Message Styling */
+        #message {
+            text-align: center;
+            margin-top: 20px;
+            color: #28a745;
+            /* Green color for success message */
+            font-size: 1.1em;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        /* Responsive Design for Smaller Screens */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h2 {
+                font-size: 1.8em;
+                color: #007bff;
+
+            }
+
+            input,
+            select,
+            textarea,
+            button {
+                font-size: 1em;
+            }
+        }
+
+        .success-message {
+            display: none;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+            color: #007bff;            
+            padding: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="formContainer">
+        <h2>Registration Form</h2>
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <!-- Phone Number -->
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="3" placeholder="Enter your full address"
+                    required></textarea>
+            </div>
+
+
+            <!-- Gender -->
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="" disabled selected>Select your gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                    <option value="Prefer not to say">Prefer not to say</option>
+                </select>
+            </div>
+
+
+
+            <!-- Date of Birth -->
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+
+
+            <!-- Education Level -->
+            <div class="form-group">
+                <label for="educationLevel">Education Level:</label>
+                <select id="educationLevel" name="educationLevel" required>
+                    <option value="" disabled selected>Select your education level</option>
+                    <option value="Student">Student</option>
+                    <option value="Graduate">Graduate</option>
+                    <option value="Professional">Professional</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <!-- Field of Study -->
+            <div class="form-group">
+                <label for="fieldOfStudy">Field of Study:</label>
+                <input type="text" id="fieldOfStudy" name="fieldOfStudy" placeholder="Enter your field of study"
+                    required>
+            </div>
+
+            <!-- Professional Title -->
+            <div class="form-group">
+                <label for="professionalTitle">Professional Title:</label>
+                <input type="text" id="professionalTitle" name="professionalTitle"
+                    placeholder="Enter your professional title" required>
+            </div>
+
+            <div class="form-group">
+                <label for="howDidYouKnow">How did you know about this competition?</label>
+                <select id="howDidYouKnow" name="howDidYouKnow" required>
+                    <option value="">Select an option</option>
+                    <option value="whatsapp">WhatsApp</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="twitter">Twitter</option>
+                    <option value="linkedin">LinkedIn</option>
+                    <option value="online">Online</option>
+                    <option value="aFriend">A Friend</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+
+            <div class="form-group button">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+
+
+
+        <p id="message"></p>
+        <div class="error-message" id="errorMessage">
+            <p id="errorDetails"></p>
+        </div>
+    </div>
+
+    <div class="success-message" id="successMessage">
+        Successful Registration!
+    </div>
+
+    <script>
+        document.getElementById("registrationForm").addEventListener("submit", async function (event) {
+            event.preventDefault();
+
+            const formData = {
+                name: document.getElementById("name").value,
+                email: document.getElementById("email").value,
+                phone: document.getElementById("phone").value,
+                address: document.getElementById("address").value,
+                gender: document.getElementById("gender").value,
+                dob: document.getElementById("dob").value,
+                educationLevel: document.getElementById("educationLevel").value,
+                fieldOfStudy: document.getElementById("fieldOfStudy").value,
+                professionalTitle: document.getElementById("professionalTitle").value,
+                howDidYouKnow: document.getElementById("howDidYouKnow").value
+            };
+
+
+            try {
+                const response = await fetch("http://localhost:8000/api/users", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                const result = await response.json();
+                document.getElementById("message").textContent = result.message;
+
+
+                // Hide the form and display success message
+                if (response.ok) {
+                    document.getElementById('registrationForm').reset();
+                    document.getElementById('formContainer').style.display = 'none';
+                    document.getElementById('successMessage').style.display = 'block';
+                }
+
+                // alert('Registration successful!');
+            } catch (error) {
+                console.error('Fetch error:', error);
+                document.getElementById("message").textContent = "An error occurred. Please try again.";
+            }
+        });
+
+    </script>
+</body>
+
+
+
+<!-- Participation Type -->
+<!-- <div class="form-group">
+    <label for="participationType">Participation Type:</label>
+    <select id="participationType" name="participationType" required onchange="toggleTeamFields()">
+      <option value="" disabled selected>Select participation type</option>
+      <option value="Individual">Individual</option>
+      <option value="Team">Team</option>
+    </select>
+  </div>
+   -->
+<!-- Team Fields (Hidden initially) -->
+<!-- <div class="team-fields">
+    <div class="form-group">
+      <label for="teamName">Team Name:</label>
+      <input type="text" id="teamName" name="teamName" placeholder="Enter your team name">
+    </div>
+    
+    <div class="form-group">
+      <label for="teamMembers">Number of Team Members:</label>
+      <input type="number" id="teamMembers" name="teamMembers" placeholder="Enter number of team members">
+    </div>
+  </div> -->
+
+</html>

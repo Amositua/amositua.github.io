@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List of Registered Users</title>
+  <style>
+    /* Basic styling */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #007BFF;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    table {
+      width: 90%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: white;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    table th, table td {
+      padding: 12px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+
+    table th {
+      background-color: #007BFF;
+      color: white;
+    }
+
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    .table-container {
+      padding: 20px;
+      margin: 30px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>List of Registered Users</h1>
+    <p>View all the registered users and their information</p>
+  </header>
+
+  <div class="table-container">
+    <table id="userTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Address</th>
+          <th>Gender</th>
+          <th>Date of Birth</th>
+          <th>Education Level</th>
+          <th>Field of Study</th>
+          <th>Professional Title</th>
+          <th>How Did You Know?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- User data will be dynamically inserted here -->
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+    // Fetching user data from the backend
+    fetch('http://localhost:8000/api/users')  // Make sure the endpoint is correct
+      .then(response => response.json())
+      .then(users => {
+        const tableBody = document.querySelector('#userTable tbody');
+        
+        users.forEach(user => {
+          const row = document.createElement('tr');
+          
+          row.innerHTML = `
+            <td>${user.name}</td>
+            <td>${user.email}</td>
+            <td>${user.phone}</td>
+            <td>${user.address}</td>
+            <td>${user.gender}</td>
+            <td>${new Date(user.dob).toLocaleDateString()}</td>
+            <td>${user.educationLevel}</td>
+            <td>${user.fieldOfStudy}</td>
+            <td>${user.professionalTitle}</td>
+            <td>${user.howDidYouKnow}</td>
+          `;
+          
+          tableBody.appendChild(row);
+        });
+      })
+      .catch(error => console.error('Error fetching user data:', error));
+  </script>
+</body>
+</html>
