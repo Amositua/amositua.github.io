@@ -294,7 +294,8 @@
     </div>
 
     <div class="success-message" id="successMessage">
-        Successful Registration!
+        Successful Registration! <br>
+        You will receive a mail
     </div>
 
     <script>
@@ -316,7 +317,7 @@
 
 
             try {
-                const response = await fetch("http://localhost:8000/api/users", {
+                const response = await fetch("https://bison-backend-ix1r.onrender.com/api/users", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"

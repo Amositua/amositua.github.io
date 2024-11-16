@@ -87,7 +87,7 @@
 
   <script>
     // Fetching user data from the backend
-    fetch('http://localhost:8000/api/users')  // Make sure the endpoint is correct
+    fetch('https://bison-backend-ix1r.onrender.com/api/users')  // Make sure the endpoint is correct
       .then(response => response.json())
       .then(users => {
         const tableBody = document.querySelector('#userTable tbody');
