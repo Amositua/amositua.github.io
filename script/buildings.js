@@ -12,14 +12,13 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}    
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+    dots[i].className = dots[i].className.replace("active", "");
   }
+  console.log(dots.length)
   slides[slideIndex-1].style.display = "flex";  
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 5000);
 }
-
-
 
 
 // Toggle navbar

@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
 
 * {
   margin: 0;
@@ -7,7 +9,8 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  /* font-family: 'Lato', sans-serif; */
+  font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -286,7 +289,7 @@ a:hover {
 /* About */
 .about-us {
   /* padding: 100px 0; */
-  margin-top: 100px;
+  margin-top: 180px;
 }
 
 .about-us .flex {
@@ -392,17 +395,18 @@ a:hover {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  border: 0;
-  border: 1px solid #9f9191;
+  background: #6052cc;
+  color: #fff;
+  border: none;
   letter-spacing: 2px;
   text-align: center;
   text-transform: uppercase;
 }
 
 .boxed-btn:hover {
-  background: #6052cc;
-  color: #fff;
-  border: none;
+  background: #fff;
+  color: #131313;
+  border: 1px solid #6052cc;
 }
 
 .about-us .circle1 {
@@ -545,10 +549,11 @@ a:hover {
 
 .project .flex h6 {
   /* color: #808080; */
-  font-weight: 100;
+  /* font-weight: 100; */
   margin: 70px 0;
   text-transform: uppercase;
   font-size: 23px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .project h2 {
@@ -920,20 +925,21 @@ button {
 
 .contact-us .send-mail {
   cursor: pointer;
-  background: #fff;
+  background-color:#6052cc;
   display: inline-block;
   padding: 18px 44px;
   font-size: 14px;
   font-weight: 400;
-  border: 1px solid #9e9797;
+  border: none;
   letter-spacing: 2px;
   text-align: center;
-  color: #131313;
+  color: #fff;
 }
 
 .contact-us .send-mail:hover {
-  color: #fff;
-  background-color: #6052cc;
+  color: #333;
+  background-color: #ffff;
+  border: 1px solid #6052cc;
 }
 
 /* footer */
@@ -1008,6 +1014,7 @@ button {
 
 .footer .ebison img {
   height: 110px;
+  width: 180px;
 }
 
 .footer .ebison-info p {
@@ -1023,6 +1030,7 @@ button {
 .footer .company a {
   display: block;
   width: fit-content;
+  margin-top: 30px;
 }
 
 .footer .company a:hover {
@@ -1035,6 +1043,9 @@ button {
 
 .footer .contact {
   height: 250px;
+  background: none;
+  margin-top: 0;
+  padding: 0;
 }
 
 .footer .contact p {

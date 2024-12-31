@@ -66,96 +66,25 @@ const data = [
 
     {
         id: 1,
-        name: 'Duplex',
+        name: 'Legendary construction',
         architect: 'Ebison consult',
         size: '50ft by 100ft',
-        date: '2021',
-        location: 'BENIN CITY, EDO STATE',
-        image: '/images/project4.jpg',
+        date: '2024',
+        location: 'GWAGWALADA, ABUJA',
+        image: '/images/bison/bungalow03.jpeg',
         url: '/bungalow/bungalows/bungalow2.html'
     },
     {
         id: 2,
-        name: 'Duplex',
+        name: 'Raw Housing',
         architect: 'Ebison consult',
-        size: '50ft by 100ft',
-        date: '2021',
-        location: 'BENIN CITY, EDO STATE',
-        image: '/images/project1.jpg',
+        size: '75ft by 120ft',
+        date: '2022',
+        location: 'SAPELE BYPASS, BENIN CITY',
+        image: '/images/bison/bungalow05.jpeg',
         url: '/bungalow/bungalows/bungalow3.html'
     },
-    {
-        id: 3,
-        name: 'Duplex',
-        architect: 'Ebison consult',
-        size: '50ft by 100ft',
-        date: '2021',
-        location: 'BENIN CITY, EDO STATE',
-        image: '/images/project3.JPG',
-        url: '/bungalow/bungalows/bungalow4.html'
-    },
-    {
-        id: 4,
-        name: 'Duplex',
-        architect: 'Ebison consult',
-        size: '50ft by 100ft',
-        date: '2021',
-        location: 'BENIN CITY, EDO STATE',
-        image: '/images/project4.jpg',
-        url: '/bungalow/bungalows/bungalow5.html'
-    },
-    {
-        id: 4,
-        name: 'Duplex',
-        architect: 'Ebison consult',
-        size: '50ft by 100ft',
-        date: '2021',
-        location: 'BENIN CITY, EDO STATE',
-        image: '/images/project4.jpg',
-        url: '/bungalow/bungalows/bungalow6.html'
-    },
-    {
-        id: 4,
-        name: 'Duplex',
-        architect: 'Ebison consult',
-        size: '50ft by 100ft',
-        date: '2021',
-        location: 'BENIN CITY, EDO STATE',
-        image: '/images/project4.jpg',
-        url: '/bungalow/bungalows/bungalow7.html'
-    },
-    {
-        id: 4,
-        name: 'Duplex',
-        architect: 'Ebison consult',
-        size: '50ft by 100ft',
-        date: '2021',
-        location: 'BENIN CITY, EDO STATE',
-        image: '/images/project4.jpg',
-        url: '/bungalow/bungalows/bungalow8.html'
-    },
-    {
-        id: 4,
-        name: 'Duplex',
-        architect: 'Ebison consult',
-        size: '50ft by 100ft',
-        date: '2021',
-        location: 'BENIN CITY, EDO STATE',
-        image: '/images/project4.jpg',
-        url: '/bungalow/bungalows/bungalow9.html'
-    },
-    {
-        id: 4,
-        name: 'Duplex',
-        architect: 'Ebison consult',
-        size: '50ft by 100ft',
-        date: '2021',
-        location: 'BENIN CITY, EDO STATE',
-        image: '/images/project4.jpg',
-        url: '/bungalow/bungalows/bungalow10.html'
-    }
 ]
-
 
 
 const display = () => {
