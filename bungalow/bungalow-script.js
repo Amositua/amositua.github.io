@@ -84,6 +84,17 @@ const data = [
         image: '/images/bison/bungalow05.jpeg',
         url: '/bungalow/bungalows/bungalow3.html'
     },
+
+    {
+      id: 3,
+      name: 'Bungalow',
+      architect: 'Ebison consult',
+      size: '75ft by 120ft',
+      date: '2022',
+      location: 'SAPELE BYPASS, BENIN CITY',
+      image: '/images/bungalow/bun1.jpeg',
+      url: '/bungalow/bungalows/bungalow4.html'
+  },
 ]
 
 

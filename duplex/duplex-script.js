@@ -74,16 +74,16 @@ const data = [
         image: '/images/bison/duplex01.jpeg',
         url: '/duplex/duplexes/duplex2.html'
     },
-    // {
-    //     id: 2,
-    //     name: 'Duplex',
-    //     architect: 'Ebison consult',
-    //     size: '50ft by 100ft',
-    //     date: '2021',
-    //     location: 'BENIN CITY, EDO STATE',
-    //     image: "/images/bison/duplex01.jpeg",
-    //     url: '/duplex/duplexes/duplex3.html'
-    // }
+    {
+        id: 2,
+        name: 'Duplex',
+        architect: 'Ebison consult',
+        size: '100ft by 100ft',
+        date: '2023',
+        location: 'BENIN CITY, EDO STATE',
+        image: "/images/duplex/du1.jpeg",
+        url: '/duplex/duplexes/duplex3.html'
+    }
 ]
 
 

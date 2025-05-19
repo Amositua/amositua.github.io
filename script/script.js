@@ -79,3 +79,41 @@ function closeNav(event) {
 
 menuBar.addEventListener('click', toggleNav);
 body.addEventListener('click', closeNav);
+
+
+// Contact Form Submission
+  const form = document.getElementById("contact-form");
+  const responseMessage = document.getElementById("response-message");
+
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const formData = {
+      name: form.name.value,
+      email: form.email.value,
+      message: form.message.value,
+    };
+
+    try {
+      const response = await fetch("http://localhost:8000/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        responseMessage.textContent = "Message sent successfully!";
+        responseMessage.style.color = "green";
+        form.reset();
+      } else {
+        const errorData = await response.json();
+        responseMessage.textContent = `Error: ${errorData.message || "Failed to send message."}`;
+        responseMessage.style.color = "red";
+      }
+    } catch (error) {
+      responseMessage.textContent = "Network error. Please try again later.";
+      responseMessage.style.color = "red";
+    }
+  });
